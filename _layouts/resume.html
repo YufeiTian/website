@@ -35,9 +35,9 @@
           {% include icon-links.html %}
         </div>
 
-        <div class="executive-summary" itemprop="description">
+        
           Welcome! I am a first-year CS PhD student at USC, under the supervision of Professor <a href="https://www.cs.jhu.edu/~npeng/">Nanyun Peng</a>. My research interest lies in <b>natural language processing</b> and its connecttion with the real world (both socially and physically). I'm currently working on creative language generation. I graduated from Tsinghua University.
-        </div>
+        
 <!-- Previously I have worked on paraphrase generation, cultural commonsense mining and abstractive summarization.  -->
 
       </header>
@@ -125,11 +125,10 @@
         </header>
 
         <div class="resume-item">
-          <ul class="resume-item-list">
             {% for interest in site.data.miscellaneous %}
-            <li>{{ interest.description }}</li>
+            <p>{{ interest.description }}</p>
             {% endfor %}
-          </ul>
+          
         </div>
 
       </section>
