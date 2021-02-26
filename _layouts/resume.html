@@ -36,32 +36,59 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          Welcome! I am a first-year CS PhD student at USC, under the supervision of Professor <a href="https://www.cs.jhu.edu/~npeng/">Nanyun Peng</a>. My research interest lies in <b>natural language processing</b> and its connecttion with the real world (both socially and physically). I'm currently working on creative language generation. I graduated from Tsinghua University.
         </div>
-
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
+<!-- Previously I have worked on paraphrase generation, cultural commonsense mining and abstractive summarization.  -->
 
       </header>
+
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2 style="color:#CC6699;"> Education</h2>
+        </header>
+
+        {% for education in site.data.education %}
+        
+          <h4 class="resume-item-copy">{{ education.uni }} &bull; {{ education.year }}</h4>
+          {{ education.degree }}
+        
+        {% endfor %}
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
+
+      {% if site.resume_section_publications %}
+      <!-- begin publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2 style="color:#CC6699;">Preprints and Publications</h2>
+        </header>
+
+        {% for pub in site.data.publications %}
+        <h4 class="resume-item-copy"><a href="{{ pub.url }}" itemprop="url">{{ pub.title }}</a> </h4>
+        {{ pub.authors }}  <em><b>{{ pub.venue }}</b></em> 
+       {% endfor %}
+
+
+      </section>
+      <!-- end publications -->
+      {% endif %}
+            
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2 style="color:#CC6699;">Experience</h2>
         </header>
 
         {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
+        <h4 class="resume-item-copy"> {{ job.company }} &bull; {{ job.duration }}</h4>
+          {{ job.summary }} Advisor: {{ job.advisor }}
         {% endfor %}
 
       </section>
@@ -69,130 +96,44 @@
       {% endif %}
 
 
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
+
+
+      {% if site.resume_section_honors %}
+      <!-- begin honors -->
       <section class="content-section">
+
         <header class="section-header">
-          <h2>Education</h2>
+          <h2 style="color:#CC6699;">Honors</h2>
         </header>
 
-        {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul>
-
-
-          <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
-      <!-- end Education -->
-      {% endif %}
-
-
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
-
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
-        </div>
+        {% for honor in site.data.honors %}
+        <h4 class="resume-item-copy"> {{ honor.award }}</h4>
+        {{ honor.description }} 
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end honors -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
+
+      {% if site.resume_section_miscellaneous %}
+      <!-- begin miscellaneous -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
-
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Associations</h2>
-        </header>
-
-        {% for association in site.data.associations %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
-
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2 style="color:#CC6699;">Miscellaneous</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
+            {% for interest in site.data.miscellaneous %}
             <li>{{ interest.description }}</li>
             {% endfor %}
           </ul>
         </div>
 
       </section>
-      <!-- end Interests -->
+      <!-- end miscellaneous -->
       {% endif %}
 
       {% if site.resume_section_links %}
@@ -232,8 +173,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Contact me via email: <a href="mailto:yufeit@usc.edu">yufeit@usc.edu</a> ;-)</p>
       </footer>
 
     </div>
