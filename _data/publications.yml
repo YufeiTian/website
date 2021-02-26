@@ -1,0 +1,17 @@
+# Publications
+# uncomment the urls if you wish to display them, and add your own URL
+
+- title: Identifying Cultural Differences through Multi-Lingual Wikipedia
+  authors: Yufei Tian, Tuhin Chakrabarty, Fred Morstatter, and Nanyun Peng.
+  url: "https://arxiv.org/pdf/2004.04938.pdf"
+  venue: preprint
+
+- title: CAN-SIN A Cross-Layer Heterogeneous Academic Network with Semantic Information
+  authors: Yufei Tian, Hong Hu, Yuejiang Li, H. Vicky Zhao, and Yan Chen.
+  url: "http://www.apsipa.org/proceedings/2020/pdfs/0001617.pdf"
+  venue: APSIPA 2020
+
+- title: Aspect and Opinion Aware Abstractive Review Summarization with Reinforced Hard Typed Decoder
+  authors: Yufei Tian, Jianfei Yu and Jing Jiang. 
+  url: "https://arxiv.org/pdf/2004.05755.pdf"
+  venue: CIKM 2019
