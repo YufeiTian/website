@@ -14,7 +14,7 @@ resume_name:                    "Yufei Tian"
 resume_title:                   "About Me"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "yufeit@usc.edu"
+resume_contact_email:           "yufeit AT ucla edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 #resume_contact_telephone:       "555-7334"
