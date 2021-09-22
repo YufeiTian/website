@@ -1,9 +1,14 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
+- title: Paraphrase Generation as Unsupervised Machine Translation
+  authors: Chun Fan, Yufei Tian, Yuxian Meng, Nanyun Peng, Xiaofei Sun, Fei Wu, Jiwei Li.
+  url: "https://arxiv.org/pdf/2109.02950.pdf"
+  venue: Preprint
+
 - title: HypoGen - Hyperbole Generation with Commonsense and Counterfactual Knowledge
   authors: Yufei Tian, Arvind krishna Sridhar, and Nanyun Peng.
-  url: ""
+  url: "https://arxiv.org/pdf/2109.05097.pdf"
   venue: Findings of EMNLP 2021
 
 - title: Identifying Cultural Differences through Multi-Lingual Wikipedia
