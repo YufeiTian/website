@@ -1,10 +1,21 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
-- title: Paraphrase Generation as Unsupervised Machine Translation
-  authors: Chun Fan, Yufei Tian, Yuxian Meng, Nanyun Peng, Xiaofei Sun, Fei Wu, Jiwei Li.
-  url: "https://arxiv.org/pdf/2109.02950.pdf"
-  venue: Preprint
+- title: Zero-shot Sonnet Generation with Discourse-level Coherence and Poetic Features
+  authors: Yufei Tian and Nanyun Peng.
+  url: "coming.soon"
+  venue: NAACL 2022
+
+- title: Go Back in Time - Generating Flashbacks in Stories with Event Plots and Temporal Prompts
+  authors: Rujun Han, Hong Chen, Yufei Tian, and Nanyun Peng
+  url: "coming.soon"
+  venue: NAACL 2022
+
+- title: AmbiPun - Generating Humorous Puns with Ambiguous Context
+  authors: Anirudh Mittal*, Yufei Tian* (equal contribution), and Nanyun Peng
+  url: "coming.soon"
+  venue: NAACL 2022 (Short)
+
 
 - title: HypoGen - Hyperbole Generation with Commonsense and Counterfactual Knowledge
   authors: Yufei Tian, Arvind krishna Sridhar, and Nanyun Peng.
@@ -15,6 +26,11 @@
   authors: Yufei Tian, Tuhin Chakrabarty, Fred Morstatter, and Nanyun Peng.
   url: "https://arxiv.org/pdf/2004.04938.pdf"
   venue: SocialNLP@NAACL2021
+
+- title: Paraphrase Generation as Unsupervised Machine Translation
+  authors: Chun Fan, Yufei Tian, Yuxian Meng, Nanyun Peng, Xiaofei Sun, Fei Wu, Jiwei Li.
+  url: "https://arxiv.org/pdf/2109.02950.pdf"
+  venue: Preprint
 
 - title: CAN-SIN A Cross-Layer Heterogeneous Academic Network with Semantic Information
   authors: Yufei Tian, Hong Hu, Yuejiang Li, H. Vicky Zhao, and Yan Chen.
