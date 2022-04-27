@@ -88,11 +88,11 @@
           <h2 style="color:#CC6699;">Experience</h2>
         </header>
 
-        <ol>
+        
         {% for job in site.data.experience %}
-        <li><h4 class="resume-item-copy"> {{ job.company }} &bull; {{ job.duration }}</h4></li>
+        <h4 class="resume-item-copy"> {{ job.company }} &bull; {{ job.duration }}</h4>
           {{ job.summary }} Advisor: {{ job.advisor }}
-        </ol>
+        
         {% endfor %}
       
 
