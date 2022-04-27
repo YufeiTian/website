@@ -67,9 +67,11 @@
           <h2 style="color:#CC6699;">Preprints and Publications</h2>
         </header>
 
+        <ol>
         {% for pub in site.data.publications %}
-        <h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a> </h4>
+        <li><h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a> </h4></li>
         {{ pub.authors }}  <em>{{ pub.venue }}</em> 
+        </ol>
        {% endfor %}
 
 
@@ -90,8 +92,9 @@
         {% for job in site.data.experience %}
         <li><h4 class="resume-item-copy"> {{ job.company }} &bull; {{ job.duration }}</h4></li>
           {{ job.summary }} Advisor: {{ job.advisor }}
+        </ol>
         {% endfor %}
-      </ol>
+      
 
       </section>
       <!-- end Experience -->
