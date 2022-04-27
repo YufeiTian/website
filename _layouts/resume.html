@@ -68,7 +68,7 @@
         </header>
 
         {% for pub in site.data.publications %}
-        <h4 class="resume-item-copy"><a href="{{ pub.url }}" itemprop="url">{{ pub.title }}</a> </h4>
+        <h4 class="resume-item-copy"><a href="{{ pub.url }}" >{{ pub.title }}</a> </h4>
         {{ pub.authors }}  <em><b>{{ pub.venue }}</b></em> 
        {% endfor %}
 
