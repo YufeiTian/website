@@ -69,8 +69,8 @@
 
         <ol>
         {% for pub in site.data.publications %}
-        <li><h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a> </h4></li>
-        {{ pub.authors }}  <em>{{ pub.venue }}</em> 
+        <li><h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a> </h4>
+        {{ pub.authors }}  <em>{{ pub.venue }}</em> </li>
         </ol>
        {% endfor %}
 
