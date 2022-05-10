@@ -1,19 +1,19 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
-- title: Zero-shot Sonnet Generation with Discourse-level Coherence and Poetic Features
+- title: Zero-shot Sonnet Generation with Discourse-level Planning and Aesthetics Features
   authors: Yufei Tian and Nanyun Peng.
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2205.01821.pdf"
   venue: NAACL 2022
 
 - title: Go Back in Time - Generating Flashbacks in Stories with Event Plots and Temporal Prompts
   authors: Rujun Han, Hong Chen, Yufei Tian, and Nanyun Peng
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2205.01898.pdf"
   venue: NAACL 2022
 
 - title: AmbiPun - Generating Humorous Puns with Ambiguous Context
   authors: Anirudh Mittal*, Yufei Tian* (equal contribution), and Nanyun Peng
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2205.01825.pdf"
   venue: NAACL 2022 (Short)
 
 
