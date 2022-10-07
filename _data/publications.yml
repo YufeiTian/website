@@ -1,5 +1,9 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
+- title: A Unified Framework for Pun Generation with Humor Principles
+  authors: Yufei Tian, Divyanshu Arun Sheth, and Nanyun Peng.
+  url: "coming.soon"
+  venue: To appear in Findings of EMNLP 2022
 
 - title: Zero-shot Sonnet Generation with Discourse-level Planning and Aesthetics Features
   authors: Yufei Tian and Nanyun Peng.
@@ -14,7 +18,7 @@
 - title: AmbiPun - Generating Humorous Puns with Ambiguous Context
   authors: Anirudh Mittal*, Yufei Tian* (equal contribution), and Nanyun Peng
   url: "https://arxiv.org/pdf/2205.01825.pdf"
-  venue: NAACL 2022 (Short)
+  venue: NAACL 2022
 
 
 - title: HypoGen - Hyperbole Generation with Commonsense and Counterfactual Knowledge
