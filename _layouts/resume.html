@@ -76,8 +76,8 @@
         
         {% for job in site.data.experience %}
         <h4 class="resume-item-copy"> {{ job.company }} &bull; {{ job.duration }}</h4>
-          <p> {{job.position}} Advisor: {{ job.advisor }}</p>
-          <p>{{ job.summary }} </p>
+          {{job.position}} Advisor: {{ job.advisor }}<br>
+          {{ job.summary }}
         
         {% endfor %}
       
