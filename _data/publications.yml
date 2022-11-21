@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 - title: A Unified Framework for Pun Generation with Humor Principles
   authors: Yufei Tian, Divyanshu Arun Sheth, and Nanyun Peng.
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2210.13055.pdf"
   venue: Findings of EMNLP 2022
 
 - title: Zero-shot Sonnet Generation with Discourse-level Planning and Aesthetics Features
