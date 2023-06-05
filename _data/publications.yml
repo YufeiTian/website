@@ -1,4 +1,10 @@
 # Publications
+- title: Unsupervised Melody-to-Lyric Generation
+  authors: Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, and Nanyun Peng
+  url: "https://arxiv.org/pdf/2305.19228.pdf"
+  demo: "https://sites.google.com/view/lyricsgendemo"
+  venue: ACL 2023
+
 - title: A Unified Framework for Pun Generation with Humor Principles
   authors: Yufei Tian, Divyanshu Arun Sheth, and Nanyun Peng.
   url: "https://arxiv.org/pdf/2210.13055.pdf"
