@@ -1,4 +1,14 @@
 # Publications
+- title: Harnessing Black-Box Control to Boost Commonsense in LM's Generation
+  authors: Yufei Tian, Felix Zhang, Nanyun Peng.
+  url: "coming.soon"
+  venue: EMNLP 2023
+
+- title: Evaluating Large Language Models on Controlled Generation Tasks
+  url: "coming.soon"
+  venue: EMNLP 2023
+
+
 - title: Unsupervised Melody-to-Lyric Generation
   authors: Yufei Tian, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Gunnar Sigurdsson, Chenyang Tao, Wenbo Zhao, Tagyoung Chung, Jing Huang, and Nanyun Peng.
   url: "https://arxiv.org/pdf/2305.19228.pdf"
