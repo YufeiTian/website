@@ -1,12 +1,12 @@
 # Publications
 - title: Harnessing Black-Box Control to Boost Commonsense in LM's Generation
   authors: Yufei Tian, Felix Zhang, Nanyun Peng.
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2310.17054.pdf"
   venue: EMNLP 2023
 
 - title: Evaluating Large Language Models on Controlled Generation Tasks
   authors: Jiao Sun*, Yufei Tian*, Wangchunshu Zhou*, Nan Xu* (equal contribution), Qian Hu, Rahul Gupta, John Wieting, Nanyun Peng, and Xuezhe Ma.
-  url: "coming.soon"
+  url: "https://arxiv.org/pdf/2310.14542.pdf"
   venue: EMNLP 2023
 
 
