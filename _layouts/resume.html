@@ -114,6 +114,25 @@
       {% endif %}
 
     {% if site.resume_section_publications %}
+      <!-- begin preprints -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2 style="color:#CC6699;">Preprints</h2>
+        </header>
+
+        <ol>
+        {% for pub in site.data.preprints %}
+        <li><h4 class="resume-item-copy"><a href="{{ pub.url }}">{{ pub.title }}</a></h4></li>
+        {{ pub.authors }}  <em>{{ pub.venue }}</em> 
+       {% endfor %}
+       </ol>
+
+
+      </section>
+      <!-- end preprints -->
+      {% endif %}
+
+    {% if site.resume_section_publications %}
       <!-- begin publications -->
       <section class="content-section">
         <header class="section-header">
