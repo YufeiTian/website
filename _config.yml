@@ -27,7 +27,7 @@ display_header_contact_info:    "false"
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
-resume_section_education:       true
+#resume_section_education:       false
 resume_section_publications:    true
 resume_section_honors:          true
 #resume_section_links:           true
