@@ -1,6 +1,15 @@
 # Publications
+- title: Are Large Language Models Capable of Generating Human-Level Narratives?
+  authors: Yufei Tian*, Tenghao Huang*, Miri Liu, Derek Jiang, Alexander Spangher, Muhao Chen, Jonathan May, Nanyun Peng.
+  url: "https://arxiv.org/pdf/2407.13248"
+  venue: EMNLP 2024.
 
-- title: My MacGyver - Are Large Language Models Creative Problem Solvers?
+- title: ADetecting Machine-Generated Long-Form Content with Latent-Space Variables
+  authors: Yufei Tian, Zeyu Pan, Nanyun Peng.
+  url: "coming.soon"
+  venue: Findings of EMNLP 2024.  
+
+- title: MacGyver - Are Large Language Models Creative Problem Solvers?
   authors: Yufei Tian, Abhilasha Ravichander, Lianhui Qin, Ronan Le Bras, Raja Marjieh, Nanyun Peng, Yejin Choi, Thomas L. Griffiths, Faeze Brahman.
   url: "https://arxiv.org/pdf/2311.09682.pdf"
   venue: NAACL 2024.
