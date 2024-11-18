@@ -12,7 +12,7 @@
 - title: MacGyver - Are Large Language Models Creative Problem Solvers?
   authors: Yufei Tian, Abhilasha Ravichander, Lianhui Qin, Ronan Le Bras, Raja Marjieh, Nanyun Peng, Yejin Choi, Thomas L. Griffiths, Faeze Brahman.
   url: "https://arxiv.org/pdf/2311.09682.pdf"
-  venue: NAACL 2024. **Best Paper Nomination**
+  venue: NAACL 2024. <b style="color:sandybrown;">Best Paper Nomination</b>
 
 - title: Harnessing Black-Box Control to Boost Commonsense in LM's Generation
   authors: Yufei Tian, Felix Zhang, Nanyun Peng.
