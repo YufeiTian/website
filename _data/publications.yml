@@ -2,7 +2,7 @@
 - title: Are Large Language Models Capable of Generating Human-Level Narratives?
   authors: Yufei Tian*, Tenghao Huang*, Miri Liu, Derek Jiang, Alexander Spangher, Muhao Chen, Jonathan May, Nanyun Peng.
   url: "https://arxiv.org/pdf/2407.13248"
-  venue: EMNLP 2024
+  venue: EMNLP 2024. <b style="color:sandybrown;">Outstanding Paper</b>
 
 - title: Detecting Machine-Generated Long-Form Content with Latent-Space Variables
   authors: Yufei Tian, Zeyu Pan, Nanyun Peng.
@@ -12,7 +12,7 @@
 - title: MacGyver - Are Large Language Models Creative Problem Solvers?
   authors: Yufei Tian, Abhilasha Ravichander, Lianhui Qin, Ronan Le Bras, Raja Marjieh, Nanyun Peng, Yejin Choi, Thomas L. Griffiths, Faeze Brahman.
   url: "https://arxiv.org/pdf/2311.09682.pdf"
-  venue: NAACL 2024.
+  venue: NAACL 2024. **Best Paper Nomination**
 
 - title: Harnessing Black-Box Control to Boost Commonsense in LM's Generation
   authors: Yufei Tian, Felix Zhang, Nanyun Peng.
