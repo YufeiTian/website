@@ -1,4 +1,9 @@
 # Publications
+- title: REFFLY - Melody-Constrained Lyrics Editing Model
+  authors: Songyan Zhao*, Bingxuan Li*, Yufei Tian, Nanyun Peng.
+  url: "https://arxiv.org/pdf/2409.00292"
+  venue: NAACL 2025.
+
 - title: Are Large Language Models Capable of Generating Human-Level Narratives?
   authors: Yufei Tian*, Tenghao Huang*, Miri Liu, Derek Jiang, Alexander Spangher, Muhao Chen, Jonathan May, Nanyun Peng.
   url: "https://arxiv.org/pdf/2407.13248"
