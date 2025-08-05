@@ -1,8 +1,8 @@
 # Publications
 - title: SkillVerse - Assessing and Enhancing LLMs with Tree Evaluation
   authors: Yufei Tian, Jiao Sun, Nanyun Peng, Zizhao Zhang.
-  url: "coming.soon"
-  venue: ACL 2025.
+  url: "https://arxiv.org/pdf/2506.00319" 
+  venue: ACL 2025. <b style="color:sandybrown;">SAC Highlight</b> 
 
 - title: REFFLY - Melody-Constrained Lyrics Editing Model
   authors: Songyan Zhao*, Bingxuan Li*, Yufei Tian, Nanyun Peng.
